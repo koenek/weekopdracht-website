@@ -2,38 +2,139 @@
 <html lang=”nl”>
 
 <head>
-    <title>Leren HTML</title>
-    
-<head>
-<body>
-    <nav>
-        <a href="index.html">Qien Coding
-        institute</a>
-    </nav>
-    <main>
-        <section>
+    <title>Leren Front End</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a class="nav-logo">
+                            <span class="logo-first">Qien Coding</span>
+                            <span class="logo-second">institute</span>
+                        </a>
+
+                        <ul class="nav-list">
+                            <li class="nav-list-item"><a href="index.html">Home</a>
+                                <ul class="nav-inner-list">
+                                    <li class="nav-inner-list-item">Wat is het?</li>
+                                    <li class="nav-inner-list-item"><a href="cursussen/tabellen.html">Cursussen</a></li>
+                                    <li class="nav-inner-list-item">Quizes</li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a class="active" href="html.html">HTML</a>
+                                <ul class="nav-inner-list">
+                                    <li class="nav-inner-list-item">Wat is het?</li>
+                                    <li class="nav-inner-list-item"><a href="cursussen/tabellen.html">Cursussen</a></li>
+                                    <li class="nav-inner-list-item">Quizes</li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a href="html.html">CSS</a>
+                                <ul class="nav-inner-list">
+                                    <li class="nav-inner-list-item">Wat is het?</li>
+                                    <li class="nav-inner-list-item">Cursussen</li>
+                                    <li class="nav-inner-list-item">Quizes</li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a href="html.html">JS</a>
+                                <ul class="nav-inner-list">
+                                    <li class="nav-inner-list-item">Wat is het?</li>
+                                    <li class="nav-inner-list-item">Cursussen</li>
+                                    <li class="nav-inner-list-item">Quizes</li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a href="html.html">Quizes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="header-section">
+                <div class="container">
+                    <div>
+                        <div class="header-outer-wrapper">
+                            <div class="header-text-wrapper">
+                                <h1>HyperText Markup Language</h1>
+                                <p class="paragraph-large"><b>HTML</b> wordt meestal bekeken met een webbrowser, zoals
+                                    Google Chrome, Safari of Internet Explorer.
+                                    Deze browser 'leest' de <b>HTML</b> code en zet 'm voor jou om naar een mooi
+                                    opgemaakte en goed te lezen pagina. De
+                                    afkorting <b>HTML</b> staat voor: Hypertext Markup Language</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
             <div class="container">
-                <table style="width: 100%;">
-                    <tr>
-                        <th>Naam cursus</th>
-                        <th>Thema</th>
-                        <th>leestijd</th>
-                    </tr>
-                    <tr>
-                        <td>Tabellen maken</td>
-                        <td>HTML</td>
-                        <td>12 minuten</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>HTML</td>
-                        <td>15 minuten</td>
-                    </tr>
-                </table>
+                <section class="about-html-section">
+                    <h2>About HTML</h2>
+                    <div class="about-p-container">
+                        <p class="about-p">Bacon ipsum dolor amet alcatra drumstick pork belly chuck spare ribs biltong
+                            brisket rump. Rump kielbasa pork tail, ham hock chicken flank short loin alcatra shank
+                            venison chislic. Boudin salami hamburger sirloin t-bone, beef ribs jerky sausage meatball.
+                            Shank cupim meatloaf ball tip shankle picanha. T-bone beef ribs ball tip tenderloin tongue
+                            cow.</p>
+                        <p class="about-p">Strip steak turkey meatball pig shankle buffalo capicola short ribs,
+                            frankfurter andouille tail pork chop swine leberkas. Biltong porchetta shankle tongue pork
+                            belly bacon. Strip steak ball tip swine flank corned beef. Jerky jowl pastrami, capicola
+                            alcatra tenderloin salami t-bone chislic shoulder.</p>
+                        <p class="about-p">Cow shoulder landjaeger short loin filet mignon spare ribs bacon hamburger
+                            shankle fatback chicken frankfurter. Pig short loin pork chop, meatloaf tri-tip corned beef
+                            salami chicken alcatra tenderloin doner chislic ribeye boudin. Porchetta capicola short ribs
+                            kevin. Short loin prosciutto chislic cupim meatball ham hock ball tip capicola ham brisket.
+                            Salami boudin tongue pancetta.</p>
+                    </div>
+                    <div class="article-text-wrapper">
+                        <h3>Onze HTML Courses</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Naam van de cursus</th>
+                                    <th>Thema</th>
+                                    <th>Leestijd</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>HTML syntax en tags</td>
+                                    <td>HTML</td>
+                                    <td>30m</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML syntax en tags</td>
+                                    <td>HTML</td>
+                                    <td>30m</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML syntax en tags</td>
+                                    <td>HTML</td>
+                                    <td>30m</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML syntax en tags</td>
+                                    <td>HTML</td>
+                                    <td>30m</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
             </div>
-        </section>
-    </main>
-    
-</body>
+        </main>
+
+        <footer>
+            <div class="container">
+                <small>© 2020 Kevin </small>
+            </div>
+        </footer>
+
+    </body>
 
 </html>

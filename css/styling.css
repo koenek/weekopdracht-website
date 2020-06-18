@@ -55,6 +55,32 @@ nav {
     color: #FFCF99;
 }
 
+.active {
+    color: #FFCF99 !important;
+    text-decoration: underline !important;
+}
+
+table {
+    width: 60%;
+}
+
+th {
+    background-color: #AF3800;
+    color: #FFF8F0;
+    padding: 10px;
+    text-align: left;
+}
+
+tr {
+    background-color: #FFCF99;
+    color: #1B2F33;
+    }
+
+td {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
 .nav-inner-list {
     display: none;
 }
@@ -70,6 +96,11 @@ section {
 
 .header-section {
     background-color: #FFCF99;
+    color: #FFF8F0;
+}
+
+.header-section h1 {
+    color: #FFF8F0;
 }
 
 .container {
@@ -135,6 +166,11 @@ section {
 
 .courses-section {
     background-color: #FFCF99;
+    color: #FFF8F0;
+}
+
+.courses-section h2 {
+    color: #FFF8F0;
 }
 
 .quizes-container {
@@ -157,6 +193,14 @@ section {
     background-color: #FFCF99;
     padding: 25px;
     box-shadow: 1px 1px 3px #1B2F33;
+}
+
+.about-p-container {
+    display: flex;
+}
+
+.about-p {
+    padding: 0px 50px 0px 0px;
 }
 
 footer {
